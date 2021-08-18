@@ -9,3 +9,4 @@ All the functions of the shells are described below.
 * 4-listmorefiles:- List content of the directory in the long format  including hidden files
 * 5-listfilesdigitonly:- List content of the directory in the long format including hidden files, GID and UID
 * 6-firstdirectory:- Creates a directory named "my_first_directory" in the /tmp directory
+* 7-movethatfile:- Moves the file caleed "betty" in /tmp/ to /tmp/my_first_directory
