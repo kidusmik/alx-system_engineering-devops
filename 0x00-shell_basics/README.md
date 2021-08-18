@@ -11,3 +11,4 @@ All the functions of the shells are described below.
 * 6-firstdirectory:- Creates a directory named "my_first_directory" in the /tmp directory
 * 7-movethatfile:- Moves the file caleed "betty" in /tmp/ to /tmp/my_first_directoy
 * 8-firstdelete:- Deletes the file called "betty" from /tmp/my_first_directory
+* 9-firstdirdeletion:- Deletes the directory called "my_first_directory" in /tmp/
