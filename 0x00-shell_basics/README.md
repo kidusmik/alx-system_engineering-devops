@@ -14,3 +14,4 @@ All the functions of the shells are described below.
 * 9-firstdirdeletion:- Deletes the directory called "my_first_directory" in /tmp/
 * 10-back:- Change the working directory t the previous one
 * 11-lists:- List contents of directories inside the current working directory, the parent working directory and the /boot/ directory
+* 12-file_type:- Prints the type of the file called "iamafile" in /tmp/ directory
