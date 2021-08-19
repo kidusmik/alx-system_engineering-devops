@@ -13,4 +13,4 @@ All the functions of the shells are described below.
 * 8-firstdelete:- Deletes the file called "betty" from /tmp/my_first_directory
 * 9-firstdirdeletion:- Deletes the directory called "my_first_directory" in /tmp/
 * 10-back:- Change the working directory t the previous one
-* 11lists:- List contents of directories inside the current working directory, the parent working directory and the /boot/ directory
+* 11-lists:- List contents of directories inside the current working directory, the parent working directory and the /boot/ directory
