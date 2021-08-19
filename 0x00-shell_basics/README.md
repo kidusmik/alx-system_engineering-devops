@@ -15,3 +15,4 @@ All the functions of the shells are described below.
 * 10-back:- Change the working directory t the previous one
 * 11-lists:- List contents of directories inside the current working directory, the parent working directory and the /boot/ directory
 * 12-file_type:- Prints the type of the file called "iamafile" in /tmp/ directory
+* 13-symbolic_link:- Creates a link called "__ls__" to /bin/ls
