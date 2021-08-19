@@ -16,3 +16,4 @@ All the functions of the shells are described below.
 * 11-lists:- List contents of directories inside the current working directory, the parent working directory and the /boot/ directory
 * 12-file_type:- Prints the type of the file called "iamafile" in /tmp/ directory
 * 13-symbolic_link:- Creates a link called "__ls__" to /bin/ls
+* 14-copy_html:- Copies all html files to the parent directory which doesn't exist before and are newer
