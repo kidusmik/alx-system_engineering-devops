@@ -1,19 +1,49 @@
-# Shell Basics Directory
+# Shell - Basics
 
-All the functions of the shells are described below.
+*Description or function of all the programs in this directory are listed below.*
 
-* 0-current_working_directory:- Prints the current working directory on the terminal
-* 1-listit:- Print list of files and folders in the current working directory on the terminal
-* 2-bring_me_home:- Change the current working directory to the home directory of the user
-* 3-listfiles:- List contents of the directory in the long format
-* 4-listmorefiles:- List content of the directory in the long format  including hidden files
-* 5-listfilesdigitonly:- List content of the directory in the long format including hidden files, GID and UID
-* 6-firstdirectory:- Creates a directory named "my_first_directory" in the /tmp directory
-* 7-movethatfile:- Moves the file caleed "betty" in /tmp/ to /tmp/my_first_directoy
-* 8-firstdelete:- Deletes the file called "betty" from /tmp/my_first_directory
-* 9-firstdirdeletion:- Deletes the directory called "my_first_directory" in /tmp/
-* 10-back:- Change the working directory t the previous one
-* 11-lists:- List contents of directories inside the current working directory, the parent working directory and the /boot/ directory
-* 12-file_type:- Prints the type of the file called "iamafile" in /tmp/ directory
-* 13-symbolic_link:- Creates a link called "__ls__" to /bin/ls
-* 14-copy_html:- Copies all html files to the parent directory which doesn't exist before and are newer
+* 0-current_working_directory :- a script that prints the `absolute path name` of the **current working directory**.
+
+* 1-listit :- display the `contents list` of your **current directory**.
+
+* 2-bring_me_home :-  a script that `changes` the working directory to the user’s `home directory`.
+
+* 3-listfiles :- **Displays** current directory contents in a `long format`.
+
+* 4-listmorefiles :- Displays **current directory contents**, including `hidden files` (starting with `.`), using the long format.
+
+* 5-listfilesdigitonly :- Displays `current directory` contents, including:
+  * Long format
+  * User and Group IDs are displayed numerically
+  * Hidden files (starting with `.`)
+
+* 6-firstdirectory :- a script that creates a directory named `my_first_directory` in the `/tmp/` directory.
+
+* 7-movethatfile :- Moves the file `betty` from `/tmp/` to `/tmp/my_first_directory`.
+
+* 8-firstdelete :- Delete the file `betty` located in `/tmp/my_first_directory`.
+
+* 9-firstdirdeletion :- Deletes the directory `my_first_directory` that is in the `/tmp` directory.
+
+* 10-back :- a script that `changes` the **working directory** to the `previous` one.
+
+* 11-lists :- a script that `lists` all files (including `hidden` files) in the `current directory` and the `parent of the working directory` and the `/boot` directory (in this order), in `long format`.
+
+* 12-file_type :- a script that prints the `type` of the file named `iamafile` located in the `/tmp` 
+
+* 13-symbolic_link :- Creates a `symbolic link` to `/bin/ls` named `__ls__` in the current working directory.
+
+* 14-copy_html :- a script that `copies` all the `.html` files from the `current` **working directory** to the `parent` of the **working directory**, but only copy files that **did not exist** in the `parent` of the **working directory** or were `newer` than the versions in the `parent` of the **working directory**.
+
+* 100-lets_move :- a script that `moves` all files beginning with an `uppercase letter` to the directory `/tmp/u`.
+
+* 101-clean_emacs :- a script that `deletes` all files in the **current working directory** that end with the character `~`.
+
+* 102-tree :- a script that `creates` the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
+
+* 103-commas :- a command that `lists` all the files and directories of the **current directory**, separated by `commas`, and:
+  * **Directory** names end with a `forward slash` (`/`)
+  * **Files** and **Directories** starting with a `dot` (`.`) are displayed
+  * The listing is `alphabetically ordered`, except for the **directories** `.` and `..` which are listed at the very `beginning`
+
+* school.mgc :- a `magic file` that can be used with the command `file` to detect `School` **data files**. `School` data files always contain the string `SCHOOL` at offset `0`.
