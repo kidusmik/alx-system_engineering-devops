@@ -2,6 +2,6 @@
 # Displays Best School 10 times using until loop.
 i=0
 until [ $i -eq 10 ]; do
-  printf 'Best School\n'
+  echo "Best School"
   (( i++ ))
 done
