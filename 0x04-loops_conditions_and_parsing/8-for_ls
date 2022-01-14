@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Displays the time for 12 hours and 59 minutes.
-for i in $(ls); do
-  echo ${i#*-}
+for i in *; do
+  echo "${i#*-}"
 done
