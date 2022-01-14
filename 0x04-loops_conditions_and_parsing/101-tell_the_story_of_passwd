@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Displays the time for 12 hours and 59 minutes.
+filename="/etc/passwd"
+while IFS=: read -r a b c d e f g; do
+   printf "The user %s is part of the %s gang, live in %s and rides %s. %s's place is protected by the passcode %s, more info about the user here: %s\n" "$a" "$d" "$f" "$g" "$c" "$b" "$e"
+done < $filename
