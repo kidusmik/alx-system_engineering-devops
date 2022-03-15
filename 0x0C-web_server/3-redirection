@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Create redirect
+# change /redirect_me to redirecting to another page
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install nginx
