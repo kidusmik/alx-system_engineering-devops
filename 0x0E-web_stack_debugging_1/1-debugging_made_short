@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Changes the nginx config file, starts nginx and deletes the pid reference
+sed -i 's/8080 default_server/80 default_server/g' /etc/nginx/sites-enabled/default
+service nginx restart
+rm /var/run/nginx.pid
