@@ -1,0 +1,58 @@
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb
+sudo apt update
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys
+sudo apt update
+sudo apt-cache policy mysql-server
+sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*
+
+CREATE USER 'holberton_user'@'localhost' IDENTIFIED BY 'projectcorrection280hbtn';
+GRANT ALL PRIVILEGES ON *.* TO 'holberton_user'@'localhost'; 
+FLUSH PRIVILEGES;
+exit
+
+master
+CREATE DATABASE IF NOT EXISTS tyrell_corp;
+USE tyrell_corp;
+CREATE TABLE IF NOT EXISTS nexus6 (id INT, name VARCHAR(256));
+INSERT INTO nexus6 (id, name) VALUES(1, 'Leon');
+
+
+CREATE USER 'replica_user'@'%' IDENTIFIED BY 'random12345';
+GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'%'; 
+FLUSH PRIVILEGES;
+exit
+
+sudo ufw allow 3306
+
+https://raw.githubusercontent.com/kidusmik/alx-system_engineering-devops/main/0x0C-web_server/0-transfer_file
+
+/etc/mysql/mysql.conf.d/mysqld.cnf
+
+[mysqld]
+server-id = 1
+log_bin = /var/log/mysql/mysql-bin.log
+
+sudo service mysql restart
+
+mysqldump --all-databases --master-data > dbdump.db
+
+mysql> UNLOCK TABLES;	
+
+
+
+slave
+sudo ufw allow 3306
+
+[mysqld]
+server-id=2
+sudo service mysql restart
+
+sudo mysql < data.sql
+
+STOP SLAVE;
+
+START SLAVE;
+
+
+test
