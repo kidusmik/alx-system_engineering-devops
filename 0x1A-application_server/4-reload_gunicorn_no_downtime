@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # restarts gunicorn app
-PID=$(pgrep gunicorn | head -n 1)
-kill -HUP "$PID"
+pkill -HUP gunicorn
